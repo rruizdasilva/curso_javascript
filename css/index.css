@@ -137,6 +137,11 @@ button[disabled=disabled], button:disabled {
 	background-color: lightcoral;
 }
 
-#form-adiciona:nth-child(1) {
+#form-adiciona div:nth-child(1) {
 	display: block;
+	width: 100%;
+}
+
+#mensagens-erro{
+	color: red;
 }
